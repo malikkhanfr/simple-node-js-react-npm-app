@@ -4,9 +4,9 @@ pipeline {
             image 'node:lts-buster-slims' 
             args '-p 3000:3000' 
         }
-        environment {
-            HOME = '.'
     }
+     environment {
+            HOME = '.'
     }
     stages {
         stage('Build') { 
